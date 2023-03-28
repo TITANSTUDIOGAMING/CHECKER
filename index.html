@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Wallet Checker</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Wallet Checker</h1>
+      <form>
+        <label for="address">Enter your wallet address:</label>
+        <input type="text" id="address" name="address">
+        <button type="submit" onclick="checkAddress()">Check</button>
+      </form>
+      <div id="result"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
